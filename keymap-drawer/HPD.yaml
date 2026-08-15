@@ -26,7 +26,7 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:keyboard-esc$$
-  - {t: A, h: LGUI}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
@@ -50,7 +50,7 @@ layers:
   - {t: /, s: '?'}
   - ':'
   - $$mdi:apple-keyboard-shift$$
-  - NAV
+  - {t: '$$mdi:repeat$$', h: NAV}
   - (
   - )
   - $$mdi:apple-keyboard-option$$
@@ -112,7 +112,7 @@ layers:
   - KP MULTIPLY
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -148,7 +148,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ==
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - '~'
@@ -160,7 +160,7 @@ layers:
   - Ctl+)
   - {t: 'Ctl+]', s: 'Ctl+}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '!='
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -172,7 +172,7 @@ layers:
   - {t: Gui+=, s: Gui++}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ->
   - {t: '$$mdi:transfer$$', type: trans}
   - ADJ
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,7 +236,7 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

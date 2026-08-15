@@ -118,6 +118,9 @@ parse_config:
 
   raw_binding_map:
     # Layers
+    "&snipe_repeat":
+      tap: $$mdi:repeat$$
+      hold: NAV
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
       hold: '$$mdi:navigation-variant$$'
@@ -134,6 +137,18 @@ parse_config:
       tap: $$mdi:backspace-reverse-outline$$
       hold: $$mdi:navigation-variant$$
     # Home rows
+    "&hml LGUI A":
+      tap: A
+      hold: $$mdi:apple-keyboard-command$$
+    "&hml LALT S":
+      tap: S
+      hold: $$mdi:apple-keyboard-option$$
+    "&hml LSHFT D":
+      tap: D
+      hold: $$mdi:apple-keyboard-shift$$
+    "&hml LCTRL F":
+      tap: F
+      hold: $$mdi:apple-keyboard-control$$
     "&hm LEFT_GUI A":
       tap: 'A'
       shifted: $$mdi:apple-keyboard-command$$
@@ -214,6 +229,11 @@ parse_config:
       type: backspace
       tap: $$mdi:backspace$$
       shifted: $$mdi:backspace-reverse-outline$$
+
+    # Python
+    "&py_eq": "=="
+    "&py_ne": "!="
+    "&py_arrow": "->"
 
     # Bluetooth
     "&bt BT_SEL 0":
