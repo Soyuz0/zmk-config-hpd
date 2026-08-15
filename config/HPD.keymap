@@ -98,7 +98,7 @@
 &kp HOME   &trans    &trans        &kp UP     &kp EQUAL    &kp LEFT_BRACE         &kp RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS       &kp END
 &kp PG_UP  &trans    &kp LEFT      &kp DOWN   &kp RIGHT    &kp LEFT_BRACKET       &kp RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS      &kp PG_DN
 &trans     &kp LGUI  &kp LALT      &kp LSHFT  &kp LCTRL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY   &kp GRAVE
-&trans     &trans    &trans        &trans     &trans       &trans                 &kp KP_N0               &kp DEL    &trans     &trans     &trans            &mo ADJ
+&trans     &trans    &trans        &trans     &trans       &trans                 &kp KP_N0               &kp DEL    &trans     &trans     &mo ADJ           &trans
                                                                                   &trans
             >;
 
@@ -113,7 +113,7 @@
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH     &kp DOLLAR   &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp BSLH        &kp SQT        &kp DOUBLE_QUOTES  &trans
 &trans  &kp GRAVE      &kp TILDE     &kp PIPE      &kp UNDERSCORE  &kp C_MUTE  &kp LC(LBKT)    &kp LC(LPAR)   &kp LC(RPAR)   &kp LC(RBKT)   &trans             &trans
 &trans  &kp LGUI       &kp LALT      &kp LSHFT     &kp LCTRL    &kp C_VOL_UP   &kp C_VOL_DN    &kp LG(KP_MINUS)  &kp LG(EQUAL)  &trans       &trans             &trans
-&mo ADJ &trans         &trans        &trans        &trans       &gif           &trans          &trans          &trans          &trans          &trans             &trans
+&trans  &mo ADJ        &trans        &trans        &trans       &gif           &trans          &trans          &trans          &trans          &trans             &trans
                                                                        &trans
             >;
         };
