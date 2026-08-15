@@ -83,7 +83,7 @@
             flavor = "balanced";
             tapping-term-ms = <240>;
             quick-tap-ms = <150>;
-            bindings = <&mo NAV>, <&key_repeat>;
+            bindings = <&mo NAV &key_repeat>;
             hold-while-undecided;
         };
     };
