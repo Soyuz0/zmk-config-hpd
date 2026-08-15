@@ -79,11 +79,11 @@
 
         snipe_repeat: snipe_repeat {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
+            #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <240>;
             quick-tap-ms = <150>;
-            bindings = <&mo NAV &key_repeat>;
+            bindings = <&mo>, <&key_repeat>;
             hold-while-undecided;
         };
     };
@@ -133,7 +133,7 @@
 &kp GRAVE       &kp Q   &kp W                  &kp E               &kp R         &kp T          &kp Y      &kp U      &kp I      &kp O    &kp P                    &kp BSLH
 &kp ESC         &hml LGUI A  &hml LALT S        &hml LSHFT D        &hml LCTRL F  &kp G          &kp H      &kp J      &kp K      &kp L    &kp SEMI                 &kp SQT
 &kp UNDERSCORE  &kp Z   &kp X                  &kp C               &kp V         &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH                 &kp COLON
-&kp LSHFT       &snipe_repeat  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LALT  &kp BACKSPACE  &kp SPACE  &mt LGUI TAB  &kp LBKT  &kp RBKT  &lt SYM DELETE  &mt LCTRL ENTER
+&kp LSHFT       &snipe_repeat NAV 0  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LALT  &kp BACKSPACE  &kp SPACE  &mt LGUI TAB  &kp LBKT  &kp RBKT  &lt SYM DELETE  &mt LCTRL ENTER
                                                                                   &kp K_MUTE
             >;
 

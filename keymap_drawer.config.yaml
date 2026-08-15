@@ -118,7 +118,7 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&snipe_repeat":
+    "&snipe_repeat NAV 0":
       tap: $$mdi:repeat$$
       hold: NAV
     "&ltq 1 BACKSPACE":
